@@ -12,9 +12,9 @@ public class NombresPerfectes {
     public static void main(String[] args) {
         int nombre = Utils.LlegirInt("Introdueix un nombre per saber si es o no perfecte:");
         if(esPerfecte(nombre)){
-            System.out.println(nombre + " es perfecte.");
+            System.out.println(nombre + " es perfecte. I l'Alex té un 10.");
         }else{
-            System.out.println(nombre + " no es perfecte.");
+            System.out.println(nombre + " no es perfecte. I l'Alex té un 10.");
         }
     }
 
