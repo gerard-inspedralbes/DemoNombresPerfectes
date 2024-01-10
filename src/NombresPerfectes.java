@@ -10,11 +10,11 @@ public class NombresPerfectes {
     Per exemple són perfectes el 6 (1+2+3), el 28 (1+2+4+7+14)
     * */
     public static void main(String[] args) {
-        int nombre = Utils.LlegirInt("Introdueix un nombre persaber si es o no perfecte:");
+        int nombre = Utils.LlegirInt("Introdueix un nombre per saber si es o no perfecte:");
         if(esPerfecte(nombre)){
             System.out.println(nombre + " es perfecte.");
         }else{
-            System.out.println(nombre + " no  es perfecte.");
+            System.out.println(nombre + " no es perfecte.");
         }
     }
 
