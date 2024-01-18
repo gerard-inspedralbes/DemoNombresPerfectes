@@ -79,4 +79,32 @@ public class Utils {
         }
         return divisors;
     }
+
+    /**
+     * Fa la suma de tots els elements d'un ArrayList
+     * @param numeros ArrayList a sumar
+     * @return suma total dels elements de la colecció, zero si la col·lecció es buida
+     */
+    public static int sumaArray(ArrayList<Integer> numeros) {
+        int sumaTotal  =0;
+        for (Integer num:numeros
+        ) {
+            sumaTotal +=num;
+        }
+        return sumaTotal;
+    }
+
+    /**
+     * Fa la suma de tots els elements d'un Array
+     * @param numeros array a sumar
+     * @return suma de tots els elements dela colecció, zero si la col·lecció es buida
+     */
+    public static int sumaArray(int [] numeros){
+        int sumaTotal  =0;
+        for (int num:numeros
+        ) {
+            sumaTotal +=num;
+        }
+        return sumaTotal;
+    }
 }

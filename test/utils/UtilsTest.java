@@ -34,4 +34,12 @@ class UtilsTest {
         assertNotNull(alResult);
     }
 
+    @Test
+    void sumaArrayOK() {
+       int[] array = {1,2,3,4,5};
+       int result = 15;
+       assertEquals(result, Utils.sumaArray(array));
+    }
+
+
 }

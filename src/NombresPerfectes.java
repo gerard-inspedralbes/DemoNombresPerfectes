@@ -27,22 +27,10 @@ public class NombresPerfectes {
      */
     public static boolean esPerfecte(int numero){
         ArrayList<Integer> divisors = Utils.getDivisors(numero);
-        return numero == sumaArray(divisors);
+        return numero == Utils.sumaArray(divisors);
     }
 
-    /**
-     * Fa la suma de tots els elements d'un ArrayList
-     * @param divisors ArrayList a sumar
-     * @return suma total dels elements de la colecció
-     */
-    private static int sumaArray(ArrayList<Integer> divisors) {
-        int sumaTotal  =0;
-        for (Integer num:divisors
-             ) {
-            sumaTotal +=num;
-        }
-        return sumaTotal;
-    }
+
 
 
 
